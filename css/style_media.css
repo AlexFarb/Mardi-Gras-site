@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Henny Penny';
+    color: #f2cc0f;
+    text-shadow: 2px 2px #8CBF3F;
+}
+
+.row img {
+    
+    transition: transform 0.2s;
+}
+.row img:hover{
+    transform: scale(1.1);
+}

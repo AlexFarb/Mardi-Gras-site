@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* font-family: 'Henny Penny', cursive;
+font-family: 'Pattaya', sans-serif;
+font-family: 'Roboto', sans-serif;
+colorblack : #0D0D0D;
+COLORWHITE: #F2F2F2;
+COLORYELLOW: #F2CC0F;
+COLORGREEN: #8CBF3F;
+COLORPURPLE: #9453A6;
+ */
+body {
+    background: linear-gradient( #9453A6, #0D0D0D);
+}
+.banner-image{
+    width: 100%;
+    height: 350px;
+}
+#description img {
+    height: 250px;
+    width: 250px;
+}
+
+
+.banner-image .content h1 {
+    font-family: 'Henny Penny', 'Pattaya'; 
+}
+
+
+.navbar-brand img{
+    height: 100px;
+    width: 100px;
+}
+footer img{
+    height: 50px;
+    width: 50px;
+}
+
+.nav-item .nav-link {
+    color: #f2cc0f;
+    font-family: 'Pattaya';
+    font-size: 24px;
+    margin: 5px;
+}
+.nav-item .nav-link:hover {
+    color: #9453a6;
+}
+
+.content h1 {
+    color: #f2cc0f;
+    text-shadow: 4px 4px #8CBF3F;
+    font-size: 3rem;
+    transition: transform 1.5s;
+
+}
+.content h1:hover {
+
+    transition: ease-in-out;
+    color: #8CBF3F;
+    text-shadow: 4px 4px #9453A6;
+    font-size: 3.5rem;
+    transform: translateY(+15px);
+
+}
+#carouselCaptions,
+.carousel-inner .carousel-item img{ 
+    align-items: center;
+    margin: auto;
+    width: 980px;
+    height: 600px;
+}
+
+.carousel-caption p {
+    font-family:'Pattaya';
+    color: #F2F2F2;
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-shadow: 2px 2px #0d0d0d;
+}
+
+.card-title {  
+    font-family: 'Henny Penny', 'Pattaya';
+    font-weight: 500;
+    color: #9453a6;
+    text-shadow: 1px 1px #f2cc0f;
+    font-size: 2rem;
+    text-align: center;
+}
+.card-text {
+    font-size: 1rem;
+    text-align: center;
+    color: #0D0D0D;
+    font-family: 'Roboto', sans-serif;
+}
+
+#wrapcarousel{ 
+    background-color: #f2cc0f;
+}
+
+#description {
+   
+    text-align: center;
+    background-color: #8CBF3F;
+}
+#description h1 {
+    font-family: 'Pattaya';
+    color: #9453a6;
+    text-shadow: 2px 2px #0d0d0d;
+}
+#description p{
+    font-family: 'Roboto', sans-serif;
+    color: #0d0d0d; 
+    font-size: 1.5rem;
+    font-weight: 350;
+}
+
+#description p span{
+    color: #9453a6;
+    text-shadow: 2px 2px #f2cc0f;
+}
+#mainwrap h1 { 
+    size: 20rem;
+    text-align: center;
+    font-family: 'Pattaya';
+    color: #f2cc0f;
+    text-shadow: 2px 2px #0d0d0d;
+}
+.card-body .btn {
+    color: #9453A6;
+    text-align: center;
+   
+}

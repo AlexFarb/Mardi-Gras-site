@@ -1,0 +1,86 @@
+/* colorblack : #0D0D0D;
+COLORWHITE: #F2F2F2;
+COLORYELLOW: #F2CC0F;
+COLORGREEN: #8CBF3F;
+COLORPURPLE: #9453A6;
+ */
+ h1{
+    text-align: center;
+    font-family: 'Henny Penny';
+    color: #8CBF3F;
+    text-shadow: 3px 3px #9453A6;
+ }
+.accordion {
+    padding: 200px;
+    background: #f2cc0f;
+   }
+   
+   .faq-drawer {
+     margin-bottom: 30px;
+   }
+   
+   .faq-drawer__content-wrapper {
+     font-family: 'Roboto';
+     font-size: 1.25rem;
+     line-height: 1.4rem;
+     max-height: 0px;
+     overflow: hidden;
+     transition: 0.25s ease-in-out;
+   }
+   
+   .faq-drawer__title {
+    color: #9453A6;
+    font-family: 'Pattaya'; 
+     border-top: #000 1px solid;
+     cursor: pointer;
+     display: block;
+     font-size: 2rem;
+     font-weight: 700;
+     padding: 30px 0 0 0;
+     position: relative;
+     margin-bottom: 0;
+     transition: all 0.25s ease-out;
+   }
+   
+   .faq-drawer__title::after {
+     border-style: solid;
+     border-width: 1px 1px 0 0;
+     content: " ";
+     display: inline-block;
+     float: right;
+     height: 10px;
+     left: 2px;
+     position: relative;
+     right: 20px;
+     top: 2px;
+     transform: rotate(135deg);
+     transition: 0.35s ease-in-out;
+     vertical-align: top;
+     width: 10px;
+   }
+   
+   .faq-drawer__title:hover { 
+     color: #0d0d0d  ;
+   }
+   
+   .faq-drawer__trigger:checked
+     + .faq-drawer__title
+     + .faq-drawer__content-wrapper {
+     max-height: 350px;
+   }
+   
+   .faq-drawer__trigger:checked + .faq-drawer__title::after {
+     transform: rotate(-45deg);
+     transition: 0.25s ease-in-out;
+   }
+   
+   input[type="checkbox"] {
+     display: none;
+   }
+   
+   @media only screen and (max-width: 600px) {
+     .container {
+       padding: 80px;
+     }
+   }
+   
